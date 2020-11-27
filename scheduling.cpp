@@ -9,8 +9,8 @@
 
 class Process {
   public:
-		int id;                     /* the process ID */
-		int initQueueLevel;         /* the level of the first queue the process was assigned to */
+    int id;                     /* the process ID */
+    int initQueueLevel;         /* the level of the first queue the process was assigned to */
     int currQueueLevel;         /* the level of the queue the process is currently in */
     int burstTime;              /* the duration of the CPU burst for the process */
     double arrivalTime;         /* the time at which the process first joined a queue */
